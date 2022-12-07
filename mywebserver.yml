@@ -6,5 +6,10 @@
     apt:
       name: apache2
       state: present
-      
+
+  - name: i want to start webserve on ubuntu ansible nodes
+    service:
+       name: apache2
+       state: restarted
+
     
