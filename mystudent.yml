@@ -1,0 +1,24 @@
+---
+- Students: 
+  - name: ajay
+    phno: 8080808808
+    address:
+       DoorNo: 787
+       street: 2nd
+       pincode: 787878
+       
+
+  - name: raju
+    phno: 81818181881
+    address:
+      DoorNo: 787
+      street: 2nd
+      pincode: 787878
+  
+  - name: ravi
+    phno: 171717717171
+    address: 
+        DoorNo: 787
+        street: 2nd
+        pincode: 787878
+
