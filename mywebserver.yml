@@ -11,8 +11,21 @@
   - name: i want to start webserve on ubuntu ansible nodes
     service:
        name: apache2
-       state: restarted
+       state: started
     when: ansible_os_family =="Debian"
 
-    
+  - name: i want to install webserve on RedHat ansible nodes
+    yum:
+      name: httpd
+      state: present
+    when: ansible_os_family =="RedHat"
+
+  - name: i want to start webserve on RedHat ansible nodes
+    service:
+       name: httpd
+       state: started
+    when: ansible_os_family =="RedHat"
+
+
+
     
