@@ -24,6 +24,4 @@
 172.31.46.126
 
 
-[myWebServers:vars]
-webpackonubuntu= apache2
-webpackonredhar= httpd
+
