@@ -4,4 +4,5 @@
 - include_tasks: installjava.yml
 - include_tasks: downlaod.yml
 - include_tasks: permissions.yml
-- include_tasks: permissions.yml
+- include_tasks: tomcatDashboard.yml
+- include_tasks: tomcatstart.yml
