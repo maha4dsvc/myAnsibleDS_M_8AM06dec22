@@ -2,4 +2,4 @@
 webpackonubuntu: apache2
 webpackonredhar: httpd
 myjavaonubuntu: openjdk-11-jre
-myjavaonredhat: java-11-openjdk
+myjavaonredhat: java-1.8.0-amazon-corretto-devel
